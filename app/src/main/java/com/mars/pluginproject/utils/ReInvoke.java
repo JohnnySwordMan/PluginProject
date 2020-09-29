@@ -103,4 +103,12 @@ public class ReInvoke {
             e.printStackTrace();
         }
     }
+
+    public static Object getStaticFieldObject(String className, String fieldName) {
+        return getFieldObject(className, null, fieldName);
+    }
+
+    public static void setStaticFieldObject(String className, String fieldName, Object fieldValue) {
+        setFieldObject(className, null, fieldName, fieldValue);
+    }
 }
