@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">tool</string>
+
+    <string name="hello_tool_plugin">hello tool plugin</string>
+</resources>

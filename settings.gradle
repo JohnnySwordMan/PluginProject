@@ -1,2 +1,4 @@
+include ':toolapi'
+include ':tool'
 include ':app'
 rootProject.name = "PluginProject"
